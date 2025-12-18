@@ -1,0 +1,98 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.life{
+    /* background-color: #06dfd8; */
+    padding: 6rem 6rem;
+}
+
+/* step3:component Container */
+.lifeContainer{
+    /* background-color: aqua; */
+    max-width: 1200%;
+    margin: auto;
+
+}
+/* step4:row */
+.lifeBody{
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+}
+/* step5:column */
+.lifeBlock{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn */
+.lifeBox{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0rem 0rem;
+    margin: rem; */
+}
+
+/* step7:content Container */
+.lifeBox p{
+    /* background-color: teal; */
+  padding: 2rem;
+  font-size: 2rem;
+    width: auto;
+    font-weight: 400;
+    color: #575757;
+    font-family: var(--fftertiary);
+    margin: 1rem;
+    
+}
+.lifeBox figure{
+    /* background-color: #06dfd8; */
+
+}
+.lifeBox figure img{
+    /* background-color: tomato; */
+    width: auto;
+    height: 40rem;
+}
+.lifeBox p{
+    /* background-color: wheat; */
+    font-size: 2rem;
+    width: auto;
+    font-weight: 400;
+    color: #575757;
+    font-family: var(--fftertiary);
+    margin: 1rem;
+    
+}
+.lifeBox button{
+    /* background-color: thistle; */
+        font-size: 2rem;
+  padding: 0.7rem 3rem;
+  font-weight: 300;
+  font-family:var(--fftertiary);
+background-color: #18CFAA;
+}
+
+.lifeBox button:hover {
+  background-color: #fefefe;
+  color: #222222;
+  transition: background-color 0.2s ease;
+}

@@ -1,0 +1,234 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.navBar {
+    /* background-color: #06dfd8; */
+    padding: 0rem 0rem;
+}
+
+/* step3:component Container */
+.navContainer {
+    /* background-color: aqua; */
+    max-width: 1200%;
+    margin: auto;
+
+}
+
+/* step4:row1 */
+.navBody1 {
+    background-color: #bbb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+/* step5:column1 */
+.navblock1 {
+    /* background-color: aliceblue; */
+
+}
+
+/* step6:subcolumn1 */
+.navBox1 {
+    /* background-color: azure; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+
+/* step7:contenetContainer */
+.navBox1 i {
+    /* background-color: blanchedalmond; */
+    margin: 1rem 1rem;
+}
+
+/*step5:column2  */
+.navblock2 {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn2 */
+.navBox2 {
+    /* background-color: azure; */
+}
+
+/* step7:contentContainer */
+.navBox2 ul {
+    /* background-color: chocolate; */
+}
+
+.navBox2 ul li {
+    /* background-color: #06dfd8; */
+    margin: 2rem 1rem;
+}
+
+/* step5:column3 */
+.navBlock3 {
+    /* background-color: aquamarine; */
+}
+
+/* step6:subcolumn3 */
+.navBox3 {
+    /* background-color: bisque; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* step7:contentContainer */
+.navBox3 i {
+    /* background-color: #06dfd8; */
+    margin: 1rem 1rem;
+}
+
+.navBox3 p {
+    /* background-color: antiquewhite; */
+    margin: 1rem 1rem;
+}
+
+.navBox3 i {
+    /* background-color: white; */
+    margin: 1rem 1rem;
+}
+
+.navBox3 p {
+    /* background-color: white; */
+    margin: 1rem 1rem;
+}
+
+/* step4:row2 */
+.navBody2 {
+    /* background-color: antiquewhite; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+/* step5:column1 */
+.navblock1 {
+    /* background-color: aliceblue; */
+
+}
+
+/* step6:subcolumn1 */
+.navBox1 {
+    /* background-color: azure; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: center;
+    width: 70%;
+    margin: 1rem 2rem;
+    /* padding: 0rem 2rem; */
+
+}
+
+/* step7:conenet Cotainer */
+.navBox1 figure {
+    /* background-color: #06dfd8; */
+
+}
+
+.navBox1 figure img {
+    /* background-color: #06dfd8; */
+    width: auto;
+    height: 5rem;
+}
+
+/* step5:column2 */
+.navblock2 {
+    /* background-color: #06dfd8; */
+    
+}
+
+/* step6:subcolumn2 */
+.navBox2 {
+    /* background-color: #06dfd8; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 6rem;
+    /* padding: 3rem; */
+
+}
+
+/* step7:conenetContainer */
+.navBox2 ul {
+    /* background-color: #06dfd8; */
+
+}
+
+.navBox2 ul li {
+    /* background-color: #06dfd8; */
+    margin: 2rem 1rem;
+}
+
+.navBox2 ul li a {
+    /* background-color: violet; */
+    text-align: center;
+    font-weight: 400%;
+    color: #555555;
+}
+
+/* step5:column3 */
+.navblock3 {
+    /* background-color: #06dfd8; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn3 */
+.navBox3 {
+    /* background-color: #06dfd8; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:conentContainer */
+.navBox3 i {
+    /* background-color: #06dfd8; */
+    margin: 2rem 1rem;
+}
+
+.links {
+    display: flex;
+}

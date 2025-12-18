@@ -1,0 +1,168 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.cbe{
+    /* background-color: #06dfd8; */
+    padding: 1rem 0rem;
+    background-image: url(./assets/images/coimbatore-cad-solutions-pvt-ltd-home-page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem;
+}
+
+/* step3:component Container */
+.cbeContainer{
+    /* background-color: aqua; */
+    max-width: 1200%;
+    margin: auto;
+
+}
+
+/* step4:row1 */
+.cbeBody1{
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem;
+}
+/* step5:column1 */
+.cbeBlock1{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn1 */
+.cbeBox1{
+    /* background-color: yellowgreen; */
+     /* background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* step7:content Container */
+.cbeBox1 figure{
+    /* background-color: teal; */
+}
+.cbeBox1 figure img{
+    /* background-color: brown; */
+    font-size: 1.4rem;
+}
+.cbeBox1 h2{
+    /* background-color: #06dfd8; */
+    font-family: var(--fffour);
+    font-size: 10rem;
+
+}
+
+/* step4:row2 */
+.cbeBody2{
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* step5:column2 */
+.cbeBlock2{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn2 */
+.cbeBox2{
+    /* background-color: yellowgreen; */
+     /* background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* step7:content Container */
+
+.cbeBox2 p{
+    /* background-color: #06dfd8; */
+     font-family: var(--ffsecondary);
+    color: #7a7a7a;
+    font-weight: 500%;
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+
+/* step5:column3 */
+.cbeBlock3{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn3 */
+.cbeBox3{
+    /* background-color: yellowgreen; */
+     /* background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* step7:content Container */
+
+.cbeBox3 button{
+    /* background-color: #06dfd8; */
+ font-size: 2rem;
+  padding: 0.7rem 3rem;
+  font-weight: 300;
+  background-color: #61ce70;
+}
+
+.cbeBox3 button:hover {
+  background-color: #18CFAA;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+/* step5:column4 */
+.cbeBlock4{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn4 */
+.cbeBox4{
+    /* background-color: yellowgreen; */
+     /* background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* step7:content Container */
+
+.cbeBox4 button{
+    /* background-color: #06dfd8; */
+     font-size: 2rem;
+  padding: 0.7rem 3rem;
+  font-weight: 300;
+  font-family:var(--fftertiary);
+background-color: #13aff0;
+
+}
+
+.cbeBox4 button:hover {
+  background-color: #61ce70;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}

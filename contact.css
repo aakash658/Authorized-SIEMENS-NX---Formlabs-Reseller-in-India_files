@@ -1,0 +1,202 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.contact{
+    background-color: #222222;
+
+}
+
+/* step3:component Container */
+.contactContainer{
+    /* background-color: aqua; */
+    max-width: 1200%;
+    margin: auto;
+
+}
+
+/* step4:row1 */
+.contactBody1{
+    /* background-color: #814343; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* step5:column1 */
+.contactBlock1{
+    /* background-color: yellow; */
+     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* step6:subcolumn1 */
+.contactBox1{
+    /* background-color: yellowgreen; */
+}
+/* step7:content Container */
+.contactBox1 h3{
+    /* background-color: #ffffff; */
+    margin: 1rem 0rem;
+    color: #fefefe;
+    font-family: var(--ffsix);
+}
+.contactBox1 ul{
+    /* background-color: yellowgreen; */
+}
+.contactBox1 ul li{
+    /* background-color: yellow; */
+    margin: 1rem;
+    font-family: var(--ffsix);
+}
+
+.contactBox1 h3{
+    /* background-color: #58bcbc; */
+    margin: 1rem 0rem;
+    color: #fefefe;
+    font-family: var(--ffsix);
+}
+.contactBox1 ul{
+    /* background-color: yellowgreen; */
+}
+.contactBox1 ul li{
+    /* background-color: rgb(225, 225, 197); */
+    margin: 1rem;
+    font-family: var(--ffsix);
+}
+
+
+/* step5:column2 */
+.contactBlock2{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn2 */
+.contactBox2{
+    /* background-color: yellowgreen; */
+}
+/* step7:content Container */
+.contactBox2 h3{
+    /* background-color: #06dfd8; */
+    margin: 1rem;
+    color: #fefefe;
+    font-family: var(--ffsix);
+}
+.contactBox2 i{
+    /* background-color: yellowgreen; */
+     background-color: rgb(255, 255, 255);
+    margin: 0rem 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #bbb9b9;
+    border-radius: 10%;
+    height: 40px;
+    width: 50px;
+    color: #0a5d7d;
+}
+.contactBox2 p{
+    /* background-color: yellow; */
+    color: #4a4a4a;
+    font-family: var(--ffsix);
+}
+
+
+/* step5:column3 */
+.contactBlock3{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn3 */
+.contactBox3{
+    /* background-color: yellowgreen; */
+}
+/* step7:content Container */
+.contactBox3 h3{
+    /* background-color: #06dfd8; */
+    margin: 1rem;
+    color: #fefefe;
+    font-family: var(--ffsix);
+}
+
+.contactBox3 p{
+    /* background-color: yellow; */
+    padding: 1rem;
+    color: #4a4a4a;
+    font-family: var(--ffsix);
+}
+
+
+/* step5:column4 */
+.contactBlock4{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn4 */
+.contactBox4{
+    /* background-color: yellowgreen; */
+}
+/* step7:content Container */
+.contactBox4 h3{
+    /* background-color: #06dfd8; */
+    margin: 1rem;
+    color: #fefefe;
+    font-family: var(--ffsix);
+}
+
+.contactBox4 p{
+    /* background-color: yellow; */
+    padding: 1rem;
+    color: #4a4a4a;
+    font-family: var(--ffsix);
+}
+
+.contactBox4 button{
+    /* background-color: #6f7777; */
+    /* color: aqua; */
+    font-size: 3rem;
+}
+
+
+/* step4:row2 */
+.contactBody{
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+/* step5:column */
+.contactBlock{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn */
+.contactBox{
+    /* background-color: yellowgreen; */
+      background-color:#1B1B1B;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+/* step7:content Container */
+.contactBox p{
+    /* background-color: #fefefe; */
+    color:rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: var(--ffsix);
+    /* border-top: 2px solid  black; */
+}

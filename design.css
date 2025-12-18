@@ -1,0 +1,436 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.design {
+    /* background-color: #06dfd8; */
+    padding: 7rem 0rem;
+}
+
+/* step3:component Container */
+.designContainer {
+    /* background-color: aqua; */
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+/* step4:row1 */
+.designBody1 {
+    /* background-color: #7a7a7a; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 5rem; */
+    row-gap: 5rem;
+    column-gap: 2rem;
+    /* padding: 5rem 2rem; */
+    width: 100%;
+    /* padding: 10rem 9rem; */
+    /* height: 1rem; */
+    border-radius: 10px;
+}
+
+/* step5:column1 */
+.designBlock1 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+/* step6:subcolumn1 */
+.designcardHeader {
+    /* background-color: yellowgreen; */
+    /* background-color: #ffffff; */
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px;
+
+}
+
+/* step7:content Container */
+.designcardHeader {
+    /* background-color: teal; */
+}
+
+.designcardHeader img {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 4/3;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.designcardMain {
+    /* background-color: #06dfd8; */
+    line-height: 2;
+    color: #222222;
+    font-family: var(--fftertiary);
+
+}
+
+.designcardMain p{
+    /* background-color: rgb(161, 161, 160); */
+    font-family: var(--ffsecondary);
+    color: #454948;
+    font-weight: 400%;
+    font-size: 14px;
+    /* padding: 2rem; */
+    /* margin: 2rem 0rem; */
+    text-align: center;
+    line-height: 1.5;
+}
+
+.designcardMain button {
+    /* background-color: aquamarine; */
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    font-weight: 300;
+    font-family: var(--fftertiary);
+    background-color: #18CFAA;
+    margin: 2rem 0rem;
+    margin-bottom: 0;
+        /* align-items: center;
+    justify-content: center; */
+}
+
+.designcardMain button:hover {
+    background-color: #fff;
+    color: #222222;
+    transition: background-color 0.2s ease;
+}
+
+/* step5:column2 */
+.designBlock2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* step6:subcolumn2 */
+.designcardHeader {
+    /* background-color: yellowgreen; */
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 75%; */
+
+}
+
+/* step7:content Container */
+
+.designcardHeader {
+    /* background-color: teal; */
+}
+
+.designcardHeader {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 4/3;
+    padding: 1rem;
+}
+
+.designcardMain {
+    /* background-color: #06dfd8; */
+    text-align: center;
+    /* margin: 2rem 4rem; */
+
+
+}
+
+.designcardMain {
+    /* background-color: aliceblue; */
+    font-family: var(--ffsecondary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 14px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.designcardMain button {
+    /* background-color: aquamarine; */
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    font-weight: 300;
+    font-family: var(--fftertiary);
+    background-color: #18CFAA;
+    margin: 3rem;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+.designcardMain button:hover {
+    background-color: #fff;
+    color: #222222;
+    transition: background-color 0.2s ease;
+}
+
+/* step5:column3 */
+.designBlock3 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* step6:subcolumn3 */
+.designcardHeader {
+    /* background-color: yellowgreen; */
+    /* background-color: #ffffff; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 75px; */
+}
+
+/* step7:content Container */
+.designcardHeader {
+    /* background-color: teal; */
+}
+
+.designcardHeader img {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 4/3;
+    padding: 1rem;
+}
+
+.designcardMain {
+    /* background-color: #06dfd8; */
+
+}
+
+.designcardMain {
+    /* background-color: aliceblue; */
+    font-family: var(--ffsecondary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 14px;
+    padding: 2rem;
+}
+
+.designcardMain button {
+    /* background-color: aquamarine; */
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    font-weight: 300;
+    font-family: var(--fftertiary);
+    background-color: #18CFAA;
+}
+
+.designcardMain button:hover {
+    background-color: #fefefe;
+    color: #222222;
+    transition: background-color 0.2s ease;
+}
+
+/* step5:column4 */
+.designBlock4 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* step6:subcolumn4 */
+.designcardHeader {
+    /* background-color: yellowgreen; */
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.designcardHeader {
+    /* background-color: teal; */
+}
+
+.designcardHeader img {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 4/3;
+    padding: 1rem;
+}
+
+.designcardMain {
+    /* background-color: #06dfd8; */
+    padding: 1rem;
+
+}
+
+.designcardMain {
+    /* background-color: aliceblue; */
+    font-family: var(--ffsecondary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 14px;
+    padding: 2rem;
+}
+
+.designcardMain button {
+    /* background-color: aquamarine; */
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    font-weight: 300;
+    font-family: var(--fftertiary);
+    background-color: #18CFAA;
+}
+
+.designcardMain button:hover {
+    background-color: #fefefe;
+    color: #222222;
+    transition: background-color 0.2s ease;
+}
+
+/* step5:column5 */
+.designBlock5 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* step6:subcolumn5 */
+.designcardHeader {
+    /* background-color: yellowgreen; */
+    /* background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.designcardHeader {
+    /* background-color: teal; */
+}
+
+.designcardHeader img {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 4/3;
+    padding: 1rem;
+}
+
+.designcardMain {
+    /* background-color: #06dfd8; */
+
+}
+
+.designcardMain {
+    /* background-color: aliceblue; */
+    font-family: var(--ffsecondary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 14px;
+    padding: 2rem;
+
+
+}
+
+.designcardMain button {
+    /* background-color: aquamarine; */
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    font-weight: 300;
+    font-family: var(--fftertiary);
+    background-color: #18CFAA;
+    margin: 3rem;
+}
+
+.designcardMain button:hover {
+    background-color: #fefefe;
+    color: #222222;
+    transition: background-color 0.2s ease;
+}
+
+/* step5:column6 */
+.designBlock6 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* step6:subcolumn6 */
+.designcardHeader {
+    /* background-color: yellowgreen; */
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.designcardHeader {
+    /* background-color: teal; */
+}
+
+.designcardHeader img {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 4/3;
+    padding: 0rem;
+}
+
+.designcardMain {
+    /* background-color: #06dfd8; */
+
+}
+
+.designcardMain {
+    /* background-color: aliceblue; */
+    font-family: var(--ffsecondary);
+    color: #7a7a7a;
+    font-weight: 500%;
+    font-size: 14px;
+    padding: 2rem;
+}
+
+.designcardMain button {
+    /* background-color: aquamarine; */
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    font-weight: 300;
+    font-family: var(--fftertiary);
+    background-color: #18CFAA;
+    margin: 3rem;
+}
+
+.designcardMain button:hover {
+    background-color: #fefefe;
+    color: #222222;
+    transition: background-color 0.2s ease;
+}

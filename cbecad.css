@@ -1,0 +1,376 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.cbecad {
+    /* background-color: #06dfd8; */
+    padding: 1rem 0rem;
+}
+
+/* step3:component Container */
+.cbecadContainer {
+    /* background-color: aqua; */
+    max-width: 1100%;
+    margin: auto;
+
+}
+
+/* step4:row1 */
+.cbecadBody1 {
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem;
+}
+
+/* step5:column1 */
+.cbecadBlock1 {
+    /* background-color: yellow; */
+}
+
+/* step6:subcolumn1 */
+.cbecadBox1 {
+    /* background-color: yellowgreen; */
+    /* background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.cbecadBox1 p {
+    /* background-color: #06dfd8; */
+    font-family: var(--fffive);
+
+}
+
+/* step4:row2 */
+.cbecadBody2 {
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+/* step5:column1 */
+.cbecadBlock1 {
+    /* background-color: yellow; */
+    /* border-radius: 2px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 2rem;
+}
+
+/* step6:subcolumn1 */
+.cbecadcardHeader {
+    /* background-color: yellowgreen; */
+    /* background-color: #fefefe; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.cbecadBox1 figure {
+    /* background-color: teal; */
+}
+
+.cbecadcardHeader {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 1/1;
+
+}
+
+.cbecadcardMain h2 {
+    /* background-color: #06dfd8; */
+    text-align: center;
+
+}
+
+.cbecadcardMain p {
+    /* background-color: aliceblue; */
+    font-family: var(--fftertiary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cbecadcardMain ul {
+    /* background-color: aquamarine; */
+}
+
+.cbecadcardMain ul li {
+    /* background-olor: violet; */
+    text-align: center;
+}
+
+/* step5:column2 */
+.cbecadBlock2 {
+    /* background-color: yellow; */
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 2rem;
+}
+
+/* step6:subcolumn2 */
+.cbecadcardHeader{
+    /* background-color: yellowgreen; */
+    /* background-color: #510808; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+
+.cbecadBox2 figure {
+    /* background-color: teal; */
+}
+
+.cbecadcardHeader {
+    /* background-color: brown; */
+    width: 100%;
+    align-self: 1/1;
+}
+
+.cbecadcardMain h2 {
+    /* background-color: #06dfd8; */
+    text-align: center;
+
+}
+
+.cbecadcardMain p {
+    /* background-color: aliceblue; */
+    font-family: var(--fftertiary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cbecadcardMain ul {
+    /* background-color: aquamarine; */
+}
+
+.cbecadcardMain ul li {
+    /* background-color: #06dfd8; */
+    text-align: center;
+}
+
+/* step5:column3 */
+.cbecadBlock3 {
+    /* background-color: yellow; */
+}
+
+/* step6:subcolumn3 */
+.cbecadBox3 {
+    /* background-color: yellowgreen; */
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+
+.cbecadBox3 figure {
+    /* background-color: teal; */
+}
+
+.cbecadBox3 figure img {
+    /* background-color: brown; */
+}
+
+.cbecadBox3 h2 {
+    /* background-color: #06dfd8; */
+
+}
+
+.cbecadBox3 p {
+    /* background-color: aliceblue; */
+    font-family: var(--fftertiary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.cbecadBox3 ul {
+    /* background-color: aquamarine; */
+}
+
+.cbecadBox3 ul li {
+    /* background-color: violet; */
+}
+
+/* step5:column4 */
+.cbecadBlock4 {
+    /* background-color: yellow; */
+}
+
+/* step6:subcolumn4 */
+.cbecadBox4 {
+    /* background-color: yellowgreen; */
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.cbecadBox4 figure {
+    /* background-color: teal; */
+}
+
+.cbecadBox4 figure img {
+    /* background-color: brown; */
+}
+
+.cbecadBox4 h2 {
+    /* background-color: #06dfd8; */
+
+}
+
+.cbecadBox4 p {
+    /* background-color: aliceblue; */
+    font-family: var(--fftertiary);
+    color: #7a7a7a;
+    font-weight: 400%;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.cbecadBox4 ul {
+    /* background-color: aquamarine; */
+}
+
+.cbecadBox4 ul li {
+    /* background-color: violet; */
+}
+
+/* step5:column5 */
+.cbecadBlock5 {
+    /* background-color: yellow; */
+}
+
+/* step6:subcolumn5 */
+.cbecadBox5 {
+    /* background-color: yellowgreen; */
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.cbecadBox5 figure {
+    /* background-color: teal; */
+}
+
+.cbecadBox5 figure img {
+    /* background-color: brown; */
+}
+
+.cbecadBox5 h2 {
+    /* background-color: #06dfd8; */
+
+}
+
+.cbecadBox5 p {
+    /* background-color: aliceblue; */
+    font-family: var(--fftertiary);
+    color: #7a7a7a;
+    font-weight: 500%;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.cbecadBox5 ul {
+    /* background-color: aquamarine; */
+}
+
+.cbecadBox5 ul li {
+    /* background-color: violet; */
+}
+
+/* step5:column6 */
+.cbecadBlock6 {
+    /* background-color: yellow; */
+}
+
+/* step6:subcolumn6 */
+.cbecadBox6 {
+    /* background-color: yellowgreen; */
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step7:content Container */
+.cbecadBox6 figure {
+    /* background-color: teal; */
+}
+
+.cbecadBox6 figure img {
+    /* background-color: brown; */
+}
+
+.cbecadBox6 h2 {
+    /* background-color: #06dfd8; */
+
+}
+
+.cbecadBox6 p {
+    /* background-color: aliceblue; */
+    font-family: var(--fftertiary);
+    color: #7a7a7a;
+    font-weight: 500%;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.cbecadBox6 ul {
+    /* background-color: aquamarine; */
+}
+
+.cbecadBox6 ul li {
+    /* background-color: violet; */
+}

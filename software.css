@@ -1,0 +1,82 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.software{
+    /* background-color: #06dfd8; */
+    background-image: url(./assets/images/SIEMENS_NX_CAD.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20rem 2rem;
+}
+
+/* step3:component Container */
+.softwareContainer{
+    /* background-color: aqua; */
+    max-width: 1200%;
+    margin: auto;
+
+}
+/* step4:row */
+.softwareBody{
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+/* step5:column */
+.softwareBlock{
+    /* background-color: yellow; */
+}
+/* step6:subcolumn */
+.softwareBox{
+    /* background-color: yellowgreen; */
+     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    
+}
+/* step7:content Container */
+.softwareBox h3{
+    /* background-color: teal; */
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    font-family: var(--ffSecondary);
+    width: 75%;
+    
+}
+.softwareBox h2{
+    /* background-color: #06dfd8; */
+    color: #fff;
+    padding: 1rem;
+    font-size: 4.4rem;
+    font-family:var(--fftertiary) ;
+
+}
+
+.softwareBox h4{
+    /* background-color: wheat; */
+    color: #18cfaa;
+    font-size: 2.2rem;
+    font-family: var(--ffSecondary);
+    font-weight: 400%;
+}
