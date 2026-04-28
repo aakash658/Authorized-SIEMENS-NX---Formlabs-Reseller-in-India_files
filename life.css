@@ -17,7 +17,7 @@
 /* Step2: component */
 .life{
     /* background-color: #06dfd8; */
-    padding: 6rem 6rem;
+    padding:4rem 16rem; 
 }
 
 /* step3:component Container */
@@ -25,7 +25,10 @@
     /* background-color: aqua; */
     max-width: 1200%;
     margin: auto;
-
+    padding: 4rem;
+     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
 }
 /* step4:row */
 .lifeBody{
@@ -89,6 +92,7 @@
   font-weight: 300;
   font-family:var(--fftertiary);
 background-color: #18CFAA;
+border: none;
 }
 
 .lifeBox button:hover {

@@ -17,7 +17,7 @@
 /* Step2: component */
 .siemens{
     /* background-color: #06dfd8; */
-    padding: 7rem 2rem;
+    padding: 6rem 2rem;
 }
 
 /* step3:component Container */
@@ -25,14 +25,15 @@
     /* background-color: aqua; */
     max-width: 1200px;
     margin: auto;
+    background-color: #ffffff;
 
 }
 
 /* step4:row1 */
 .siemensBody1{
-    /* background-color: bisque; */
+    /* background-color: rgb(7, 62, 225); */
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
 }
 /* step5:column1 */
 .siemensBlock1{
@@ -42,7 +43,7 @@
 
 .siemensBox1 {
     /* background-color: yellowgreen; */
-      background-color: #e51212;
+      /* background-color: #e51212; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -54,9 +55,12 @@
 /* step7:content Container */
 .siemensBox1 h2{
     /* background-color: #06dfd8; */
-    color: #575757;
+    color:#1F5C81;
     font-family: var(--fftertiary);
     text-align: center ;
+    margin-top: 2rem;
+    font-size: 2rem;
+    
 }
 
 
@@ -64,7 +68,7 @@
 .siemensBody2{
     /* background-color: bisque; */
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
 }
 /* step5:column1 */
 .siemensBlock1{
@@ -86,6 +90,7 @@
     /* background-color: rgb(135, 101, 59); */
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1REM 3rem;
 }
 /* step5:column1 */
 .siemensBlock1{
@@ -107,25 +112,27 @@
     /* background-color: #06dfd8; */
     margin: 1rem 0rem;
      font-family: var(--fftertiary);
-    color: #7a7a7a;
+    color: #575757;
     font-weight: 400%;
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.7rem;
+    /* padding: 1rem; */
 }
 .siemensBox1 p{
     /* background-color: rgb(253, 251, 251); */
      font-family: var(--fftertiary);
-    color: #7a7a7a;
+    color: #575757;
     font-weight: 400%;
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.7rem;
+    /* padding: 2rem; */
 }
 .siemensBox1 p{
     /* background-color: rgb(255, 255, 255); */
      font-family: var(--fftertiary);
-    color: #7a7a7a;
+    color: #575757;
     font-weight: 400%;
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.7rem;
+    /* padding: 2rem; */
+    margin-left: 5rem;
+    margin-bottom: 5rem;
 }
 

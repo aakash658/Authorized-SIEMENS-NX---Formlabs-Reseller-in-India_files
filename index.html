@@ -10,15 +10,15 @@
     <link rel="shortcut icon" href="./assets/images/Coimbatore-Cad-Solutions.webp" type="image/x-icon">
     <!-- css Link -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navBar.css">
-    <link rel="stylesheet" href="herosection.css">
-    <link rel="stylesheet" href="life.css">
-    <link rel="stylesheet" href="software.css">
-    <link rel="stylesheet" href="design.css">
-    <link rel="stylesheet" href="cbe.css">
-    <link rel="stylesheet" href="cbecad.css">
-    <link rel="stylesheet" href="siemens.css">
-    <link rel="stylesheet" href="contact.css">
+    <!-- <link rel="stylesheet" href="navBar.css"> -->
+    <!-- <link rel="stylesheet" href="herosection.css"> -->
+    <!-- <link rel="stylesheet" href="life.css"> -->
+    <!-- <link rel="stylesheet" href="software.css"> -->
+    <!-- <link rel="stylesheet" href="design.css"> -->
+    <!-- <link rel="stylesheet" href="cbe.css"> -->
+    <!-- <link rel="stylesheet" href="cbecad.css"> -->
+    <!-- <link rel="stylesheet" href="siemens.css"> -->
+    <!-- <link rel="stylesheet" href="contact.css"> -->
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -56,11 +56,11 @@
 <body>
     <header>
         <!--parent container -->
-        <div class="navBar">
+        <div class="navBar ">
             <!-- 2.component -->
-            <div class="navContainer">
+            <div class="navContainer screenSize">
                 <!-- 3.component Container -->
-                <div class="navBody1">
+                <div class="navBody1 grid-3">
                     <!-- 4.row1 -->
                     <div class="navBlock1">
                         <!-- 5.column1 -->
@@ -73,16 +73,14 @@
                     </div>
                     <div class="navBlock2">
                         <!-- 5.column2 -->
-                        <div class="navBox2">
+                        <div class="navBox2 dflex">
                             <!-- 6.subcolumn2 -->
-                            <ul class="link">
-                                <li><a href="#">Solid  2024 Launch Event for Industry</a></li>
-                            </ul>
+                            <a href="#">Solid Edge 2024 Launch Event for Industry</a>
                         </div>
                     </div>
                     <div class="navBlock3">
                         <!-- 5.column3 -->
-                        <div class="navBox3">
+                        <div class="navBox3 dflex">
                             <!-- 6.subcolumn3 -->
                             <i class="fa-solid fa-phone"></i>
                             <p>+919786300022</p>
@@ -91,11 +89,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="navBody2">
+            </div>
+        </div>
+        <div class="navInfoBar">
+            <div class="navInfoContainer screenSize">
+                <div class="navInfoBody">
                     <!-- 4.row2 -->
-                    <div class="navBlock1">
+                    <div class="navInfoBlock">
                         <!-- 5.column1 -->
-                        <div class="navBox1">
+                        <div class="navInfoBox ">
                             <!-- 6.subcolumn1 -->
                             <figure>
                                 <img src="./assets/images/Coimbatore-Cad-Solutions-Pvt-Ltd-SIEMENS-AND-FORMLABS-RESELLER-IN-India.png"
@@ -103,10 +105,14 @@
                             </figure>
                         </div>
                     </div>
-                    <div class="navBlock2">
+                    <div class="navInfoBlock1">
                         <!-- 5.column2 -->
-                        <div class="navBox2">
+                        <div class="navInfoBox1 dflex ">
                             <!-- 6.subcolumn2 -->
+                            <input type="checkbox" id="iconToggle">
+                            <label for="iconToggle" class="hamburgerIcon">
+                                <i class="fa-solid fa-bars"></i>
+                            </label>
                             <ul class="links">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">software</a></li>
@@ -115,58 +121,49 @@
                                 <li><a href="#">Request a Quote</a></li>
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="navBlock3">
-                        <!-- 5.column3 -->
-                        <div class="navBox3">
-                            <!-- 6.subcolumn3 -->
                             <i class="fa-solid fa-magnifying-glass"></i>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="herosection">
+        <div class="herosection ">
             <!-- 2.component -->
-            <div class="herosectionContainer">
+            <div class="herosectionContainer screenSize">
                 <!-- 3.component Container -->
                 <div class="herosectionBody1">
                     <!-- 4.row1 -->
                     <div class="herosectionBlock1">
                         <!-- 5.column1 -->
-                        <div class="herosectionBox1">
+                        <div class="herosectionBox1 dflex-col ">
                             <!-- 6.subcolumn1 -->
                             <h1>Top PLM software leadership recognition</h1>
                             <h2>SIEMENS Teamcenter is recognized by Forrester Research as the leader in Product
                                 Lifecycle Management (PLM)</h2>
                             <h3>Leverage the digital twin . Collaborate and Innovate . Rely on the leader</h3>
-                        </div>
-                        <div class="herosectionBlock2">
-                            <!-- 5.column2 -->
-                            <div class="herosectionBox2">
+                            <div class="buttons">
                                 <!-- 6.subcolumn2 -->
                                 <button class="one">EXPLORE PLM</button>
                                 <button class="two">EXPLORE 3D CAR</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
+            </div>
+        </div>
 
     </header>
     <main>
         <!-- parent continer -->
-        <div class="life">
+        <div class="life componentSpacing">
             <!-- 2.component -->
-            <div class="lifeContainer">
+            <div class="lifeContainer screenSize">
                 <!-- 3.component Container -->
-                <div class="lifeBody">
+                <div class="lifeBody grid-1">
                     <!-- 4.row -->
                     <div class="lifeBlock">
                         <!-- 5.column -->
-                        <div class="lifeBox">
+                        <div class="lifeBox dflex-col">
                             <!-- 6.subcolumn -->
                             <p>Is your role to imagine products that do not exist and bring them to life?</p>
                             <figure>
@@ -180,38 +177,37 @@
                 </div>
             </div>
         </div>
-        <div class="software">
+        <div class="software componentSpacing">
             <!-- 2.component -->
-            <div class="softwareContainer">
+            <div class="softwareContainer screenSize">
                 <!-- 3.component Container -->
-                <div class="softwareBody">
+                <div class="softwareBody screenSize">
                     <!-- 4.row -->
                     <div class="softwareBlock">
                         <!-- 5.column -->
-                        <div class="softwareBox">
+                        <div class="softwareBox dflex-col">
                             <!-- 6.subcolumn -->
                             <h3>SIEMENS, a leading provider of manufacturing and Engineering solutions for more than 170
                                 years is well positioned to deliver the next-generation technologies you need to work
                                 smarter, faster and together.</h3>
-                            <h2>Featured Software Solutions</h2>
-
-                            <h4>brought to you by Coimbatore Cad Solutions Pvt Ltd</h4>
+                            <h2>FEATURED SOFTWARE SOLUTION</h2>
+                            <p>brought to you by Coimbatore Cad Solutions Pvt Ltd</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="design">
+        <div class="design componentSpacing">
             <!-- 2.component -->
-            <div class="designContainer">
+            <div class="designContainer screenSizeTwo">
                 <!-- 3.component Container -->
-                <div class="designBody1">
+                <div class="designBody1 grid-3">
                     <!-- 4.row1 -->
                     <div class="designBlock1">
                         <!-- 5.column1 -->
                         <div class="designBox1">
                             <!-- 6.subcolumn1 -->
-                            <div class="designcardHeader">
+                            <div class="designcardHeader dflex-col">
                                 <figure>
                                     <img src="./assets/images/SIEMENS_NX_3D-CAD.png" alt="">
                                 </figure>
@@ -228,7 +224,7 @@
                         <!-- 5.column2 -->
                         <div class="designBox2">
                             <!-- 6.subcolumn2 -->
-                            <div class="designcardHeader">
+                            <div class="designcardHeader dflex-col">
                                 <figure>
                                     <img src="./assets/images/Solid-Edge.png" alt="">
                                 </figure>
@@ -245,7 +241,7 @@
                         <!-- 5.column3 -->
                         <div class="designBox3">
                             <!-- 6.subcolumn3 -->
-                            <div class="designcardHeader">
+                            <div class="designcardHeader dflex-col">
                                 <figure>
                                     <img src="./assets/images/Teamcenter.png" alt="">
                                 </figure>
@@ -263,7 +259,7 @@
                         <!-- 5.column4 -->
                         <div class="designBox4">
                             <!-- 6.subcolumn4 -->
-                            <div class="designcardHeader">
+                            <div class="designcardHeader dflex-col">
                                 <figure>
                                     <img src="./assets/images/form4bl_home.png" alt="">
                                 </figure>
@@ -281,7 +277,7 @@
                         <!-- 5.column5 -->
                         <div class="designBox5">
                             <!-- 6.subcolumn5 -->
-                            <div class="designcardHeader">
+                            <div class="designcardHeader dflex-col">
                                 <figure>
                                     <img src="./assets/images/nx-manufacturing-feature-cam.png" alt="">
                                 </figure>
@@ -301,7 +297,7 @@
                         <!-- 5.column6 -->
                         <div class="designBox6">
                             <!-- 6.subcolumn6 -->
-                            <div class="designcardHeader">
+                            <div class="designcardHeader dflex-col">
                                 <figure>
                                     <img src="./assets/images/voxeljet_3d_printers.png" alt="">
                                 </figure>
@@ -320,15 +316,15 @@
                 </div>
             </div>
         </div>
-        <div class="cbe">
+        <div class="cbe componentSpacing">
             <!-- 2.component -->
-            <div class="cbeContainer">
+            <div class="cbeContainer screenSize">
                 <!-- 3.component Container -->
-                <div class="cbeBody1">
+                <div class="cbeBody1 grid-1">
                     <!-- 4.row1 -->
                     <div class="cbeBlock1">
                         <!-- 5.column1 -->
-                        <div class="cbeBox1">
+                        <div class="cbeBox1 dflex-col">
                             <!-- 6.subcolumn1 -->
                             <figure>
                                 <img src="./assets/images/Coimbatore-Cad-Solutions.png" alt="">
@@ -337,25 +333,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="cbeBody2">
+                <div class="cbeBody2 grid-3">
                     <!-- 4.row2 -->
                     <div class="cbeBlock2">
                         <!-- 5.column2 -->
-                        <div class="cbeBox2">
+                        <div class="cbeBox2 dflex-col">
                             <!-- 6.subcolumn2 -->
                             <p>We'd love to meet you and let you the perfect solution</p>
                         </div>
                     </div>
                     <div class="cbeBlock3">
                         <!-- 5.column3 -->
-                        <div class="cbeBox3">
+                        <div class="cbeBox3 dflex-col">
                             <!-- 6.subcolumn3 -->
                             <button>Schedule a meeting</button>
                         </div>
                     </div>
                     <div class="cbeBlock4">
                         <!-- 5.column4 -->
-                        <div class="cbeBox4">
+                        <div class="cbeBox4 dflex-col">
                             <!-- 6.subcolumns4 -->
                             <button>Ask a Question</button>
                         </div>
@@ -363,15 +359,15 @@
                 </div>
             </div>
         </div>
-        <div class="cbecad">
+        <div class="cbecad componentSpacing">
             <!-- 2.component -->
-            <div class="cbecadContainer">
+            <div class="cbecadContainer screenSize">
                 <!-- 3.component Container -->
-                <div class="cbecadBody1">
+                <div class="cbecadBody1 grid-1">
                     <!-- 4.row1 -->
                     <div class="cbecadBlock1">
                         <!-- 5.column1 -->
-                        <div class="cbecadBox1">
+                        <div class="cbecadBox1 dflex-col">
                             <!-- 6.subcolumn1 -->
                             <p>
                                 At Coimbatore Cad Solutions Pvt Ltd, we possess the complete array of technology,
@@ -379,13 +375,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="cbecadBody2">
+                <div class="cbecadBody2 grid-3">
                     <!-- 4.row2 -->
-                    <div class="cbecadBlock1">
-                        <!-- 5.column1 -->
-                        <div class="cbecadBox1">
-                            <!-- 6.subcolumn1 -->
-                            <div class="cbecadcardHeader">
+                    <div class="cbecadBlock2">
+                        <!-- 5.column2 -->
+                        <div class="cbecadBox2 ">
+                            <!-- 6.subcolumn2 -->
+                            <div class="cbecadcardHeader dflex-col ">
                                 <figure>
                                     <img src="./assets/images/solidworks-software.png" alt="">
                                 </figure>
@@ -401,11 +397,11 @@
 
                         </div>
                     </div>
-                    <div class="cbecadBlock2">
-                        <!-- 5.column2 -->
-                        <div class="cbecadBox2">
-                            <!-- 6.subcolumn2 -->
-                            <div class="cbecadcardHeader">
+                    <div class="cbecadBlock3">
+                        <!-- 5.column3 -->
+                        <div class="cbecadBox3 ">
+                            <!-- 6.subcolumn3 -->
+                            <div class="cbecadcardHeader dflex-col">
                                 <figure>
                                     <img src="./assets/images/solidworks-technical-support-Copy-1.png" alt="">
                                 </figure>
@@ -419,85 +415,101 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cbecadBlock3">
-                        <!-- 5.column3 -->
-                        <div class="cbecadBox3">
-                            <!-- 6.subcolumn3 -->
-                            <figure>
-                                <img src="./assets/images/solidworks-training.png" alt="">
-                            </figure>
-                            <h2>Training</h2>
-                            <p>A Software is as powerful as the person who uses it. We specialize in enabling
-                                individuals!</p>
-                            <ul>
-                                <li><a href="#">READ MORE</a></li>
-                            </ul>
-                        </div>
-                    </div>
                     <div class="cbecadBlock4">
                         <!-- 5.column4 -->
-                        <div class="cbecadBox4">
+                        <div class="cbecadBox4 ">
                             <!-- 6.subcolumn4 -->
-                            <figure>
-                                <img src="./assets/images/solidworks-certification.png" alt="">
-                            </figure>
-                            <h2>Certification</h2>
-                            <p>We encourage professionals and students to take up SIEMENS certification</p>
-                            <ul>
-                                <li><a href="#">READ MORE</a></li>
-                            </ul>
+                            <div class="cbecadcardHeader dflex-col">
+                                <figure>
+                                    <img src="./assets/images/solidworks-training.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="cbecadcardMain">
+                                <h2>Training</h2>
+                                <p>A Software is as powerful as the person who uses it. We specialize in enabling
+                                    individuals!</p>
+                                <ul>
+                                    <li><a href="#">READ MORE</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="cbecadBlock5">
                         <!-- 5.column5 -->
-                        <div class="cbecadBox5">
+                        <div class="cbecadBox5 ">
                             <!-- 6.subcolumn5 -->
-                            <figure>
-                                <img src="./assets/images/solidworks-human-resource.png" alt="">
-                            </figure>
-                            <h2>HR Services</h2>
-                            <p>We can work with your Human Resources department to help your business assess new hires
-                            </p>
-                            <ul>
-                                <li><a href="#">READ MORE</a></li>
-                            </ul>
+                            <div class="cbecadcardHeader dflex-col">
+                                <figure>
+                                    <img src="./assets/images/solidworks-certification.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="cbecadcardMain">
+                                <h2>Certification</h2>
+                                <p>We encourage professionals and students to take up SIEMENS certification</p>
+                                <ul>
+                                    <li><a href="#">READ MORE</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="cbecadBlock6">
                         <!-- 5.column6 -->
-                        <div class="cbecadBox6">
+                        <div class="cbecadBox6 dflex-col">
                             <!-- 6.subcolumn6 -->
-                            <figure>
-                                <img src="./assets/images/3D-sand-printer.png" alt="">
-                            </figure>
-                            <h2>3D Sand Molds</h2>
-                            <p>We provide high quality 3D Sand molds and core printing services used for metal
-                                casting</p>
-                            <ul>
-                                <li><a href="#">READ MORE</a></li>
-                            </ul>
-
+                            <div class="cbecadcardHeader">
+                                <figure>
+                                    <img src="./assets/images/solidworks-human-resource.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="cbecadcardMain">
+                                <h2>HR Services</h2>
+                                <p>We can work with your Human Resources department to help your business assess new
+                                    hires
+                                </p>
+                                <ul>
+                                    <li><a href="#">READ MORE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cbecadBlock7">
+                        <!-- 5.column7 -->
+                        <div class="cbecadBox7 dflex-col">
+                            <!-- 6.subcolumn7 -->
+                            <div class="cbecadcardHeader">
+                                <figure>
+                                    <img src="./assets/images/3D-sand-printer.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="cbecadcardMain">
+                                <h2>3D Sand Molds</h2>
+                                <p>We provide high quality 3D Sand molds and core printing services used for metal
+                                    casting</p>
+                                <ul>
+                                    <li><a href="#">READ MORE</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="siemens">
+        <div class="siemens componenetSpacing">
             <!-- 2.component -->
-            <div class="siemensContainer">
+            <div class="siemensContainer screenSize">
                 <!-- 3.component Container -->
-                <div class="simemensBody1">
+                <div class="simemensBody1 grid-1">
                     <!-- 4.row1 -->
                     <div class="siemensBlock1">
                         <!-- 5.column1 -->
-                        <div class="siemensBox1">
+                        <div class="siemensBox1 dflex-col">
                             <!-- 6.subcolumn1 -->
                             <h2>Authorized SIEMENS NX, Teamcenter & Solid Edge Reseller in Chennai, Bangalore,
                                 Hyderabad, Coimbatore & Cochin</h2>
                         </div>
                     </div>
                 </div>
-                <div class="siemensBody2">
+                <div class="siemensBody2 grid-1">
                     <!-- 4.row2 -->
                     <div class="siemensBlock1">
                         <!-- 5.column1 -->
@@ -510,11 +522,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="siemensBody3">
+                <div class="siemensBody3 grid-1">
                     <!-- 4.row3 -->
                     <div class="siemensBlock1">
                         <!-- 5.column1 -->
-                        <div class="siemensBox1">
+                        <div class="siemensBox1 dflex-col">
                             <!-- 6.subcolumn1 -->
                             <p>Coimbatore Cad Solutions Pvt Ltd is a leading SIEMENS TIER I Reseller and trusted
                                 Engineering Solution Provider for SIEMENS NX, Teamcenter, and Solid Edge across South
@@ -543,13 +555,13 @@
     </main>
     <footer>
         <!-- parent continer -->
-        <div class="contact">
+        <div class="contact ">
             <!-- 2.component -->
-            <div class="contactCointer">
+            <div class="contactCointer ">
                 <!-- 3. component container -->
-                <div class="contactBody1">
+                <div class="contactBody1 grid-4">
                     <!-- 4.row1 -->
-                    <div class="contactBlock1">
+                    <div class="contactBlock1 dflex-col">
                         <!-- 5.column1 -->
                         <div class="contactBox1">
                             <!-- 6.subcolumn1 -->
@@ -571,15 +583,21 @@
                         <div class="contactBox2">
                             <!-- 6.subcolumn2 -->
                             <h3>Contact info</h3>
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p>Address:
-                                10 C, First Floor, Housingboard Road, Kovaipudur Pirivu</p>
-                            <i class="fa-solid fa-phone"></i>
-                            <p>Phone:
-                                +91 9786300022</p>
-                            <i class="fa-solid fa-envelope"></i>
-                            <p>Email:
-                                info@cadsolutionscbe.comOpens</p>
+                            <div class="three">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>Address:
+                                    10 C, First Floor, Housingboard Road, Kovaipudur Pirivu</p>
+                            </div>
+                            <div class="four">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>Phone:
+                                    +91 9786300022</p>
+                            </div>
+                            <div class="five">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>Email:
+                                    info@cadsolutionscbe.comOpens</p>
+                            </div>
                         </div>
                     </div>
                     <div class="contactBlock3">
@@ -594,21 +612,26 @@
                     </div>
                     <div class="contactBlock4">
                         <!-- 5.column4 -->
-                        <div class="contactBox4">
+                        <div class="contactBox4 dflex-col">
                             <!-- 6.subcolumn4 -->
                             <h3>Newsletter</h3>
                             <p>Subscribe to stay updated on the latest trends in the industry, product development
                                 advances and customer achievements</p>
-                            <button>Go</button>
+                            <form action="">
+                                <div class="formGroupone">
+                                    <input type="text" placeholder="Your Email">
+                                    <button>Go</button>
+                                </div>
+                            </form>
 
                         </div>
                     </div>
                 </div>
-                <div class="contactBody2">
+                <div class="contactBody2 grid-1">
                     <!-- 4.row2 -->
                     <div class="contactBlock">
                         <!-- 5.column -->
-                        <div class="contactBox">
+                        <div class="contactBox dflex-col">
                             <!-- 6.subcolumn -->
                             <p>For Queries Call 9566920030 / 9786300022 I Coimbatore Cad Solutions Pvt Ltd</p>
                         </div>

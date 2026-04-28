@@ -17,7 +17,10 @@
 /* Step2: component */
 .software{
     /* background-color: #06dfd8; */
-    background-image: url(./assets/images/SIEMENS_NX_CAD.webp);
+    /* background-image: url(./assets/images/SIEMENS_NX_CAD.webp); */
+     background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.73)),
+        url("./assets/images/SIEMENS_NX_CAD.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,10 +35,10 @@
 
 }
 /* step4:row */
-.softwareBody{
-    /* background-color: bisque; */
-    display: grid;
-    grid-template-columns: 1fr;
+.softwareContainer{
+    /* background-color: aqua; */
+    max-width: 1200%;
+    margin: auto;
 
 }
 /* step5:column */
@@ -51,25 +54,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
     
 }
 /* step7:content Container */
 .softwareBox h3{
     /* background-color: teal; */
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #fff;
     font-family: var(--ffSecondary);
-    width: 75%;
+    /* width: 75%; */
+    text-align: center;
     
 }
 .softwareBox h2{
     /* background-color: #06dfd8; */
     color: #fff;
     padding: 1rem;
-    font-size: 4.4rem;
+    font-size: 5rem;
     font-family:var(--fftertiary) ;
+    text-align: center;
 
 }
 
@@ -79,4 +84,5 @@
     font-size: 2.2rem;
     font-family: var(--ffSecondary);
     font-weight: 400%;
+    text-align: center;
 }

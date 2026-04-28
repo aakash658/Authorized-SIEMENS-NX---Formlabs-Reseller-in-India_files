@@ -17,218 +17,105 @@
 /* Step2: component */
 .navBar {
     /* background-color: #06dfd8; */
-    padding: 0rem 0rem;
+    background-color: #424242;
+
 }
 
 /* step3:component Container */
 .navContainer {
     /* background-color: aqua; */
-    max-width: 1200%;
+    max-width: 1200px;
     margin: auto;
 
 }
 
 /* step4:row1 */
 .navBody1 {
-    background-color: #bbb;
+    /* background-color: rgb(58, 207, 207); */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    /* padding: 1rem 1rem; */
+    padding: 0.5rem 0rem;
 }
 
-/* step5:column1 */
-.navblock1 {
-    /* background-color: aliceblue; */
-
-}
-
-/* step6:subcolumn1 */
-.navBox1 {
-    /* background-color: azure; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-
-}
-
-/* step7:contenetContainer */
 .navBox1 i {
-    /* background-color: blanchedalmond; */
-    margin: 1rem 1rem;
+    color: white;
+    font-size: 1.4rem;
+    margin: 0.3rem;
 }
 
-/*step5:column2  */
-.navblock2 {
-    /* background-color: aquamarine; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navBlock2 {
+    /* background-color: blue; */
 }
 
-/* step6:subcolumn2 */
 .navBox2 {
-    /* background-color: azure; */
-}
-
-/* step7:contentContainer */
-.navBox2 ul {
-    /* background-color: chocolate; */
-}
-
-.navBox2 ul li {
-    /* background-color: #06dfd8; */
-    margin: 2rem 1rem;
-}
-
-/* step5:column3 */
-.navBlock3 {
-    /* background-color: aquamarine; */
-}
-
-/* step6:subcolumn3 */
-.navBox3 {
-    /* background-color: bisque; */
     width: 100%;
     height: 100%;
+    /* background-color: aqua; */
     display: flex;
-    /* flex-direction: column; */
+    justify-content: end;
     align-items: center;
-    justify-content: center;
-
 }
 
-/* step7:contentContainer */
-.navBox3 i {
-    /* background-color: #06dfd8; */
-    margin: 1rem 1rem;
+.navBox2 a {
+    font-size: 1rem;
+    margin-right: 2rem;
+    color: rgb(255, 255, 255);
 }
 
-.navBox3 p {
-    /* background-color: antiquewhite; */
-    margin: 1rem 1rem;
+.navBox2 a:hover{
+    /* background-color:white; */
+    color: rgb(15, 152, 226);
+    transition: background-color 0.25 ease;
+    border: none;
 }
 
-.navBox3 i {
-    /* background-color: white; */
-    margin: 1rem 1rem;
-}
-
-.navBox3 p {
-    /* background-color: white; */
-    margin: 1rem 1rem;
+.navBox3 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    gap: 1rem;
 }
 
 /* step4:row2 */
-.navBody2 {
-    /* background-color: antiquewhite; */
+.navInfoBody {
+    /* background-color: rgb(197, 0, 219); */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 4fr 6fr;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.navInfoBlock {
+    /* background-color: rgb(148, 168, 36); */
 
 }
 
-/* step5:column1 */
-.navblock1 {
-    /* background-color: aliceblue; */
-
-}
-
-/* step6:subcolumn1 */
-.navBox1 {
-    /* background-color: azure; */
-    width: 100%;
-    height: 100%;
+.navInfoBox {
     display: flex;
-    /* flex-direction: column; */
-    align-items: start;
-    justify-content: center;
-    width: 70%;
-    margin: 1rem 2rem;
-    /* padding: 0rem 2rem; */
-
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
 }
 
-/* step7:conenet Cotainer */
-.navBox1 figure {
-    /* background-color: #06dfd8; */
-
-}
-
-.navBox1 figure img {
-    /* background-color: #06dfd8; */
-    width: auto;
-    height: 5rem;
-}
-
-/* step5:column2 */
-.navblock2 {
-    /* background-color: #06dfd8; */
-    
-}
-
-/* step6:subcolumn2 */
-.navBox2 {
-    /* background-color: #06dfd8; */
+.navInfoBox1 {
+    /* background-color: aqua; */
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 1rem 6rem;
-    /* padding: 3rem; */
+    justify-content: end;
 
 }
 
-/* step7:conenetContainer */
-.navBox2 ul {
-    /* background-color: #06dfd8; */
-
+.navInfoBox1 a {
+    margin: 1.5rem;
 }
-
-.navBox2 ul li {
-    /* background-color: #06dfd8; */
-    margin: 2rem 1rem;
+.navInfoBox1 i{
+    margin: 1rem;
 }
-
-.navBox2 ul li a {
-    /* background-color: violet; */
-    text-align: center;
-    font-weight: 400%;
-    color: #555555;
-}
-
-/* step5:column3 */
-.navblock3 {
-    /* background-color: #06dfd8; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-}
-
-/* step6:subcolumn3 */
-.navBox3 {
-    /* background-color: #06dfd8; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-}
-
-/* step7:conentContainer */
-.navBox3 i {
-    /* background-color: #06dfd8; */
-    margin: 2rem 1rem;
-}
-
 .links {
     display: flex;
 }

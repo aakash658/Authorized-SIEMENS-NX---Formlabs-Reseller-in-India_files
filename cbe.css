@@ -126,6 +126,8 @@
   padding: 0.7rem 3rem;
   font-weight: 300;
   background-color: #61ce70;
+  border: none;
+  border-radius: 10px;
 }
 
 .cbeBox3 button:hover {
@@ -158,6 +160,8 @@
   font-weight: 300;
   font-family:var(--fftertiary);
 background-color: #13aff0;
+border: none;
+border-radius: 10px;
 
 }
 

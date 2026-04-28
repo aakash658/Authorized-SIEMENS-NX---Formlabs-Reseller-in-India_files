@@ -33,13 +33,9 @@
     /* background-color: #7a7a7a; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 5rem; */
     row-gap: 5rem;
     column-gap: 2rem;
-    /* padding: 5rem 2rem; */
     width: 100%;
-    /* padding: 10rem 9rem; */
-    /* height: 1rem; */
     border-radius: 10px;
 }
 
@@ -101,15 +97,14 @@
 
 .designcardMain button {
     /* background-color: aquamarine; */
-    font-size: 1rem;
-    padding: 0.7rem 3rem;
+    font-size: 3rem;
+    padding: 1rem 3rem;
     font-weight: 300;
     font-family: var(--fftertiary);
     background-color: #18CFAA;
     margin: 2rem 0rem;
-    margin-bottom: 0;
-        /* align-items: center;
-    justify-content: center; */
+      border: none;
+    
 }
 
 .designcardMain button:hover {
@@ -268,7 +263,6 @@
     align-items: center;
     justify-content: center;
 }
-
 /* step7:content Container */
 .designcardHeader {
     /* background-color: teal; */
